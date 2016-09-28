@@ -11,7 +11,7 @@ public class Sorting{
             int min = sort[i];
             int minIndex = i;
             int place = i;
-        for (int j = i + 1; j < sort.length - 1; j++){
+        for (int j = i + 1; j <= sort.length - 1; j++){
             if (min > sort[j]){
             place = j;
             min = sort[j];
